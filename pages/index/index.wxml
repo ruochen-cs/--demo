@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view bindtap="gotoPage" data-page="line" class="mt20 list-item">线图 line</view>
+    <view bindtap="gotoPage" data-page="scrollline" class="mt20 list-item">涡旋线 scrollline</view>
+    <view bindtap="gotoPage" data-page="column" class="list-item">柱状图column</view>
+    <view bindtap="gotoPage" data-page="pie" class="list-item">饼图 pie</view>
+    <view bindtap="gotoPage" data-page="ring" class="list-item">圆环图 ring</view>
+    <view bindtap="gotoPage" data-page="area" class="list-item">区域图 area</view>
+    <view bindtap="gotoPage" data-page="radar" class="list-item">雷达图 radar</view>
+</view>
